@@ -1,0 +1,82 @@
+[ 2017-06-02T21:09:23+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/home/index/module_article?id=3&nid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' AND `category` = 3 ORDER BY browsetimes desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-02T21:09:24+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/home/index/artitlelist_files/f74501ade6fd665d7d50d27be372e2a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+
+[ 2017-06-02T21:09:24+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/home/index/artitlelist_files/a57543ba7cd34e627139d08ae3a12a3a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+
+[ 2017-06-02T21:09:30+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/home/index/module_article?id=3&nid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' AND `category` = 3 ORDER BY browsetimes desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-02T21:09:30+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/home/index/artitlelist_files/f74501ade6fd665d7d50d27be372e2a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+
+[ 2017-06-02T21:09:30+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/home/index/artitlelist_files/a57543ba7cd34e627139d08ae3a12a3a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+

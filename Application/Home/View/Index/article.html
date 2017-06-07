@@ -1,0 +1,412 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>{$article.title}</title>
+<meta name="keywords" content="{$article.keywords}">
+<meta name="description" content="{$article.abstract}">
+
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/zzsc.css" />
+	
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/demo/style_173_common.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/demo/style_173_portal_view.css">
+
+</head>
+<body>
+
+<div id="top">
+	<div class="wrap">
+		头部
+	</div>
+</div>
+<div id="header">
+	<div class="wrap">
+		<div id="logo">
+			logo、搜索栏
+		</div>
+	</div>
+	<div id="nav-main">
+		<div class="wrap">
+			<div id="nav">
+				<ul>
+					<li class="a"><a  class="home" href="home">首页</a></li>
+					<volist name="navBars" id="navBar">
+					<li><a href="{$navBar['navlink']}">{$navBar['navname']}</a></li>
+					</volist>
+				</ul>
+				<script src="__PUBLIC__/home/js/nv.js" type="text/javascript"></script> 
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="main">
+	<div class="wrap" style="display:none">
+		<div class="ad"></div>
+	</div>
+	
+	<div id="wp" class="wp">
+
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/demo/index.css">
+
+	<script src="__PUBLIC__/demo/forum_viewthread.js" type="text/javascript"></script>
+
+	<div class="wp" style="display:none">
+		<!--[diy=diy1]-->
+		<div id="diy1" class="area">
+		<div id="frameIKm8K4" class="ggwb frame move-span cl frame-1">
+		<div id="frameIKm8K4_left" class="column frame-1-c">
+			<div id="frameIKm8K4_left_temp" class="move-span temp"></div>
+			<div id="portal_block_2088" class="block move-span">
+				<div id="portal_block_2088_content" class="dxb_bc">
+					<div class="portal_block_summary">
+					<img src="__PUBLIC__/demo/ggw5.jpg" width="100%">
+					</div>
+				</div>
+			</div>
+		</div></div>
+		</div><!--[/diy]-->
+	</div>
+
+	<div id="pt" class="bm cl">
+		<div class="z">
+			<a href="#" class="nvhm" title="首页">Discuz! Board</a>
+			<a href="#" style="margin-left:6px;">首页</a> <em>&#8250;</em>
+			<a href="#">文章资讯</a> <em>&#8250;</em>
+			查看内容
+		</div>
+	</div>
+
+	<div id="ct" class="ct2 wp cl">
+	<!--左边-->
+	<div class="mn">
+		<div class="kjkjb">
+
+		<div class="bm_haa cl">
+			<div class="bm_h cl">
+			<a href="" class="y xi2 rss" title="RSS">订阅</a><h1 class="xs2">文章资讯</h1>
+			</div>
+		</div>
+
+		<div class="bm vw" style="margin-bottom:0;">
+			<div class="h hm">
+				<h1 class="ph">{$article.title}</h1>
+				<p class="xg1">{$article.createtime}<span class="pipe">|</span>
+				发布者: <a href="#">{$article.author}</a><span class="pipe">|</span>
+				查看: <em id="_viewnum">{$article.browsetimes}</em><span class="pipe">|</span>
+				评论: 0</p>
+			</div>
+			<div id="diysummarytop" class="area"></div>
+			<div class="s" style="margin-left:30px;margin-right:30px">
+				<div>
+					<strong>【摘要】</strong>{$article.abstract}
+				</div>
+			</div>
+			<div id="diysummarybottom" class="area"></div>
+
+			<div class="d" style="margin-left:20px;margin-right:20px">
+				<div id="diycontenttop" class="area"></div>
+				<table cellpadding="0" cellspacing="0" class="vwtb">
+					<tbody>
+					<tr><td id="article_content">{$article.content}
+					</td></tr>
+					</tbody>
+				</table>
+				
+				<div id="diycontentbottom" class="area"></div>
+
+				<script src="__PUBLIC__/demo/home.js" type="text/javascript"></script>
+				<div id="click_div" >
+					<table cellpadding="0" cellspacing="0" class="atd">
+						<tbody><tr>
+							<td>
+							<a href="#" id="click_aid_25_1" onclick="showWindow(this.id, this.href);doane(event);">
+							<img src="__PUBLIC__/demo/xianhua.gif" alt=""><br>鲜花</a>
+							</td>
+							<td>
+							<a href="#" id="click_aid_25_2" onclick="showWindow(this.id, this.href);doane(event);">
+							<img src="__PUBLIC__/demo/woshou.gif" alt=""><br>握手</a>
+							</td>
+							<td>
+							<a href="#" id="click_aid_25_3" onclick="showWindow(this.id, this.href);doane(event);">
+							<img src="__PUBLIC__/demo/leiren.gif" alt=""><br>雷人</a>
+							</td>
+							<td>
+							<a href="#" id="click_aid_25_4" onclick="showWindow(this.id, this.href);doane(event);">
+							<img src="__PUBLIC__/demo/luguo.gif" alt=""><br>路过</a>
+							</td>
+							<td>
+							<a href="#" id="click_aid_25_5" onclick="showWindow(this.id, this.href);doane(event);">
+							<img src="__PUBLIC__/demo/jidan.gif" alt=""><br>鸡蛋</a>
+							</td>
+						</tr></tbody>
+					</table>
+
+				</div>
+				<div id="diycontentclickbottom" class="area"></div>
+
+			</div>
+
+			<div class="o cl ptm pbm" style="margin-left:20px;margin-right:20px;display:none">
+				<a href="#" id="a_favorite" onclick="showWindow(this.id, this.href, &#39;get&#39;, 0);" class="oshr ofav">收藏</a>
+				<a href="#" id="a_share" onclick="showWindow(this.id, this.href, &#39;get&#39;, 0);" class="oshr">分享</a>
+				<a href="#" id="a_invite" onclick="showWindow(&#39;invite&#39;, this.href, &#39;get&#39;, 0);" class="oshr oivt">邀请</a>
+			</div>
+			<div class="pren pbm cl" style="margin-left:20px;margin-right:20px">
+				<em style="display:none">上一篇：<a href="#">回南天赶走潮湿 根据空间面积选除湿机</a></em><br>
+				<em style="display:none">下一篇：<a href="#">回南天赶走潮湿 根据空间面积选除湿机</a></em>
+
+				<!-- Baidu Button BEGIN -->
+				<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+				<span class="bds_more">分享到：</span>
+				<a class="bds_qzone" title="分享到QQ空间" href="http://182.92.223.135/20151120/#"></a>
+				<a class="bds_tsina" title="分享到新浪微博" href="http://182.92.223.135/20151120/#"></a>
+				<a class="bds_tqq" title="分享到腾讯微博" href="http://182.92.223.135/20151120/#"></a>
+				<a class="bds_renren" title="分享到人人网" href="http://182.92.223.135/20151120/#"></a>
+				<a class="bds_t163" title="分享到网易微博" href="http://182.92.223.135/20151120/#"></a>
+				</div>
+				<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" src="__PUBLIC__/demo/bds_s_v2.js"></script>
+
+				<script type="text/javascript">
+				document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+				</script>
+				<!-- Baidu Button END -->
+
+			</div>
+		</div>
+		</div>
+		<!--[diy=diycontentrelatetop]--><div id="diycontentrelatetop" class="area"></div><!--[/diy]-->
+		<!--[diy=diycontentrelate]------猜你可能喜欢-->
+		<div id="diycontentrelate" class="area" style="display:none">
+			<div id="frameVKDkVh" class="cnknxh frame move-span cl frame-1">
+			<div class="title frame-title"><span class="titletext">猜你可能喜欢</span></div>
+			<div id="frameVKDkVh_left" class="column frame-1-c"><div id="frameVKDkVh_left_temp" class="move-span temp"></div>
+			<div id="portal_block_2090" class="block move-span">
+			<div id="portal_block_2090_content" class="dxb_bc">
+			<div class="module cl ml">
+				<ul><li style="width: 115px;">
+					<a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=173" target="_blank"><img src="__PUBLIC__/demo/nophoto.gif" width="115" height="85" alt="都说日本人抠我还不信"></a>
+					<p><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=173" title="都说日本人抠我还不信" target="_blank">都说日本人抠我还不信</a></p>
+				</li><li style="width: 115px;">
+					<a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=172" target="_blank"><img src="__PUBLIC__/demo/nophoto.gif" width="115" height="85" alt="都说日本人抠我还不信"></a>
+					<p><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=172" title="都说日本人抠我还不信" target="_blank">都说日本人抠我还不信</a></p>
+				</li><li style="width: 115px;">
+					<a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=171" target="_blank"><img src="__PUBLIC__/demo/nophoto.gif" width="115" height="85" alt="都说日本人抠我还不信"></a>
+					<p><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=171" title="都说日本人抠我还不信" target="_blank">都说日本人抠我还不信</a></p>
+				</li><li style="width: 115px;">
+					<a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=170" target="_blank"><img src="__PUBLIC__/demo/nophoto.gif" width="115" height="85" alt="都说日本人抠我还不信"></a>
+					<p><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=170" title="都说日本人抠我还不信" target="_blank">都说日本人抠我还不信</a></p>
+				</li><li style="width: 115px;">
+					<a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=169" target="_blank"><img src="__PUBLIC__/demo/nophoto.gif" width="115" height="85" alt="都说日本人抠我还不信"></a>
+					<p><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=169" title="都说日本人抠我还不信" target="_blank">都说日本人抠我还不信</a></p>
+				</li><li style="width: 115px;">
+					<a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=168" target="_blank"><img src="__PUBLIC__/demo/nophoto.gif" width="115" height="85" alt="都说日本人抠我还不信"></a>
+					<p><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=168" title="都说日本人抠我还不信" target="_blank">都说日本人抠我还不信</a></p>
+				</li></ul>
+			</div></div></div></div></div>
+		</div><!--[/diy]-->
+
+		<!--评论区-->
+		<div id="comment" class="bm" style="display:none">
+			<div class="bm_h cl">
+			<h3>最新评论</h3>
+			</div>
+			<div id="comment_ul" class="bm_c"><form id="cform" name="cform" action="http://182.92.223.135/20151120/portal.php?mod=portalcp&ac=comment" method="post" autocomplete="off">
+
+
+			<div class="tedt">
+				<div class="area">
+				<textarea name="message" rows="3" class="pt" id="message" onkeydown="ctrlEnter(event, &#39;commentsubmit_btn&#39;);"></textarea>
+				</div>
+			</div>
+
+			<input type="hidden" name="portal_referer" value="portal.php?mod=view&amp;aid=25#comment">
+			<input type="hidden" name="referer" value="portal.php?mod=view&amp;aid=25#comment">
+			<input type="hidden" name="id" value="0">
+			<input type="hidden" name="idtype" value="">
+			<input type="hidden" name="aid" value="25">
+			<input type="hidden" name="formhash" value="3d21e8c2">
+			<input type="hidden" name="replysubmit" value="true">
+			<input type="hidden" name="commentsubmit" value="true">
+			<p class="ptn"><button type="submit" name="commentsubmit_btn" id="commentsubmit_btn" value="true" class="pn"><strong>评论</strong></button></p>
+			</form>
+			</div>
+		</div>
+		<div id="diycontentcomment" class="area"></div>
+	</div>
+
+	<!--右边-->
+	<div class="sd pph">
+		<div class="drag" style="display:none">
+		<!--[diy=diyrighttop]---------精彩图片-->
+		<div id="diyrighttop" class="area">
+		<div id="frameqIOMHH" class="zxyjctp frame move-span cl frame-1">
+		<div class="title frame-title"><span class="titletext">精彩图片</span></div>
+		<div id="frameqIOMHH_left" class="column frame-1-c">
+			<div id="frameqIOMHH_left_temp" class="move-span temp"></div>
+			<div id="portal_block_2089" class="block move-span">
+				<div id="portal_block_2089_content" class="dxb_bc" style="position: relative;">
+					<div class="module cl slidebox" id="0.4384276138152927" style="display: block;">
+						<ul class="slideshow">
+							<li style="width: 300px; height: 185px; display: none;"><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=5" target="_blank"><img src="__PUBLIC__/demo/f74501ade6fd665d7d50d27be372e2a7.jpg" width="300" height="185"></a><span class="title">[微派网出品]Win8平板全方位 应用、际上手</span></li>
+							<li style="width: 300px; height: 185px; display: block;"><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=81" target="_blank"><img src="__PUBLIC__/demo/d23e679a7d0fa3abe15751816a036705.jpg" width="300" height="185"></a><span class="title">视频行业或将大洗牌 寡头垄断格局</span></li>
+							<li style="width: 300px; height: 185px; display: none;"><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=80" target="_blank"><img src="__PUBLIC__/demo/a57543ba7cd34e627139d08ae3a12a3a.jpg" width="300" height="185"></a><span class="title">新浪微博宣称首次盈利是上市的前奏曲</span></li>
+							<li style="width: 300px; height: 185px; display: none;"><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=79" target="_blank"><img src="__PUBLIC__/demo/36d3992c1a9492eb3eb0647cc311b9bc.jpg" width="300" height="185"></a><span class="title">多跟孩子猜猜谜 孩子聪敏又伶俐  收藏起来</span></li>
+							<li style="width: 300px; height: 185px; display: none;"><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=78" target="_blank"><img src="__PUBLIC__/demo/b8914cc40fcf2faccd23607e77a0228d.jpg" width="300" height="185"></a><span class="title">教给妈妈们一些照顾宝宝的生活小常识</span></li>
+							<li style="width: 300px; height: 185px; display: none;"><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=75" target="_blank"><img src="__PUBLIC__/demo/e58f2fcde1bdd636d61b0519582db892.jpg" width="300" height="185"></a><span class="title">2015千岛湖茶文化体验节，自驾采春招募</span></li>
+							<li style="width: 300px; height: 185px; display: none;"><a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=4" target="_blank"><img src="__PUBLIC__/demo/099551dba0dbda50145c8f404d511a58.jpg" width="300" height="185"></a><span class="title">精致双人套餐，享受简约生活，品味别致甜品</span></li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+					runslideshow();
+					</script>
+					<div class="slidebar" style="position: absolute; top: 5px; left: 4px;">
+						<ul>
+						<li onmouseover="slideshow.entities[0.4384276138152927].xactive(0); return false;" class="">1</li>
+						<li onmouseover="slideshow.entities[0.4384276138152927].xactive(1); return false;" class="on">2</li>
+						<li onmouseover="slideshow.entities[0.4384276138152927].xactive(2); return false;" class="">3</li>
+						<li onmouseover="slideshow.entities[0.4384276138152927].xactive(3); return false;" class="">4</li>
+						<li onmouseover="slideshow.entities[0.4384276138152927].xactive(4); return false;" class="">5</li>
+						<li onmouseover="slideshow.entities[0.4384276138152927].xactive(5); return false;" class="">6</li>
+						<li onmouseover="slideshow.entities[0.4384276138152927].xactive(6); return false;" class="">7</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div></div></div><!--[/diy]-->
+		</div>
+
+		<div class="bm" style="display:none;">
+			<div class="bm_h cl">
+				<h2>相关分类</h2>
+			</div>
+			<div class="bm_c">
+				<ul class="xl xl2 cl">
+					<li><a href="http://182.92.223.135/20151120/portal.php?mod=list&catid=1">文章资讯</a></li>
+					<li><a href="http://182.92.223.135/20151120/portal.php?mod=list&catid=9">业务中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="bm" style="display:none;">
+			<div class="bm_h cl">
+				<h2>下级分类</h2>
+			</div>
+			<div class="bm_c">
+				<ul class="xl xl2 cl"><li><a href="http://182.92.223.135/20151120/portal.php?mod=list&catid=2">旅游资讯</a></li>
+				<li><a href="http://182.92.223.135/20151120/portal.php?mod=list&catid=3">游记攻略</a></li>
+				<li><a href="http://182.92.223.135/20151120/portal.php?mod=list&catid=6">生活休闲</a></li>
+				<li><a href="http://182.92.223.135/20151120/portal.php?mod=list&catid=7">摄影知识</a></li>
+				<li><a href="http://182.92.223.135/20151120/portal.php?mod=list&catid=8">组团活动</a></li>
+				</ul>
+			</div>
+		</div>
+
+
+		<!--热帖排行------图文推荐-->
+		<div class="drag">
+
+		<!--[diy=diyada]-------热帖排行-->
+		<div id="diyada" class="area">
+			<div id="framefm54w7" class="lyphtz frame move-span cl frame-1">
+			<div class="title frame-title"><span class="titletext">热帖排行</span></div>
+			<div id="framefm54w7_left" class="column frame-1-c"><div id="framefm54w7_left_temp" class="move-span temp"></div>
+				<div id="portal_block_2085" class="block move-span">
+					<div id="portal_block_2085_content" class="dxb_bc">
+					<div class="module cl xl xl1">
+					<ul>
+						<volist name="hotArticles" id="article" offset="0" length='3'>
+						<li id="li1"><p>{$key+1}</p><a href="article?id={$article.id}" title="{$article.title}" target="_blank">{$article.title}</a></li>
+						</volist>
+						<volist name="hotArticles" id="article" offset="3" length='7'>
+						<li id=""><p>{$key+1}</p><a href="article?id={$article.id}" title="{$article.title}" target="_blank">{$article.title}</a></li>
+						</volist>
+						
+					</ul>
+					</div></div>
+				</div>
+			</div>
+			</div>
+		</div><!--[/diy]-->
+
+		<!--[diy=wd_new_t02]------图文推荐-->
+		<div id="wd_new_t02" class="area">
+			<div id="frameBXq3Zm" class="jctjian frame move-span cl frame-1">
+			<div class="title frame-title"><span class="titletext">图文推荐</span></div><div id="frameBXq3Zm_left" class="column frame-1-c"><div id="frameBXq3Zm_left_temp" class="move-span temp"></div><div id="portal_block_2086" class="jctjiantu block move-span"><div id="portal_block_2086_content" class="dxb_bc"><div class="module cl ml">
+			<ul>
+				<li style="width: 140px;" id="li1">
+					<a href="article?id={$carouselArticles[0].id}" target="_blank"><img src="{$carouselArticles[0].picture}" width="140" height="115" alt="{$carouselArticles[0].title}"></a>
+					<p><a href="article?id={$carouselArticles[0].id}" title="{$carouselArticles[0].title}" target="_blank">{$carouselArticles[0].title}</a></p>
+				</li><li style="width: 140px;" id="li0">
+					<a href="article?id={$carouselArticles[1].id}" target="_blank"><img src="{$carouselArticles[1].picture}" width="140" height="115" alt="{$carouselArticles[1].title}"></a>
+					<p><a href="article?id={$carouselArticles[1].id}" title="{$carouselArticles[1].title}" target="_blank">{$carouselArticles[1].title}</a></p>
+				</li>
+			</ul>
+			</div></div></div>
+			<div id="portal_block_2087" class="jctjiantz block move-span">
+			<div id="portal_block_2087_content" class="dxb_bc">
+			<div class="module cl xl xl1">
+				<ul>
+					<volist name="carouselArticles" id="article" offset="2">
+					<li><a href="article?id={$article.id}" title="{$article.title}" target="_blank">{$article.title}</a></li>
+					</volist>
+				</ul>
+			</div></div></div></div></div>
+		</div>
+
+		<!--[diy=wd_new_t03]--><div id="wd_new_t03" class="area"></div><!--[/diy]-->
+		<!--[diy=wd_new_t04]--><div id="wd_new_t04" class="area"></div><!--[/diy]-->
+		</div>
+
+	</div>
+	</div>
+
+</div>
+	
+	
+	<div class="wrap">
+		<div class="friendLink">
+			<div class="title"><span class="titletext">友情链接</span></div>
+			
+			<div class="dxb_bc">
+				<ul class="cl mbm">
+					<li id="li1"><a href="home" target="_blank">首页</a></li>
+					<volist name="links" id="link">
+						<li id="li2"><a href="{$link.url}" target="_blank">{$link.name}</a></li>
+					</volist>
+					
+				</ul>
+			</div>
+			
+			
+		</div>
+	</div>
+	
+    
+</div>
+
+<div id="footer">
+	<div class="aboutus">关于我们</div>
+	<div class="aboutus" style="background: #434343;">
+		<div id="ft" class="wp cl " >
+		  <p> 
+			<a href="http://182.92.223.135/20151120/archiver/">Archiver</a><span class="pipe">|</span><a href="http://182.92.223.135/20151120/forum.php?mobile=yes">手机版</a><span class="pipe">|</span><a href="http://182.92.223.135/20151120/forum.php?mod=misc&action=showdarkroom">小黑屋</a><span class="pipe">|</span> 
+			<a href="http://www.comsenz.com/" target="_blank">Comsenz Inc.</a> 
+		  </p>
+		  <p>Powered by 
+				<a href="http://www.discuz.net/" target="_blank">Discuz!</a> <em>X3.2</em>      &#169; 2001-2013 
+				<a href="http://www.comsenz.com/" target="_blank">Comsenz Inc.</a>
+				<span id="debuginfo">All Rights Reserved. </span>
+		  </p>
+		  <p class="xs0"></p>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

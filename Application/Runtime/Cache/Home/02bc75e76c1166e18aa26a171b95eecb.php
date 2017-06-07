@@ -1,0 +1,276 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>海洋 - 书海 - H-ui.admin v2.4</title>
+<meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+<meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+
+	<link rel="stylesheet" type="text/css" href="/works/thinkphp_huiadmin/Public/home/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/works/thinkphp_huiadmin/Public/home/css/zzsc.css" />
+	
+	<link rel="stylesheet" type="text/css" href="/works/thinkphp_huiadmin/Public/demo/style_173_common.css">
+	<link rel="stylesheet" type="text/css" href="/works/thinkphp_huiadmin/Public/demo/style_173_portal_view.css">
+	<link rel="stylesheet" type="text/css" href="/works/thinkphp_huiadmin/Public/demo/style_173_portal_list.css">
+
+</head>
+<body>
+
+<div id="top">
+	<div class="wrap">
+		头部
+	</div>
+</div>
+<div id="header">
+	<div class="wrap">
+		<div id="logo">
+			logo、搜索栏
+		</div>
+	</div>
+	<div id="nav-main">
+		<div class="wrap">
+			<div id="nav">
+				<ul>
+					<li ><a  class="home" href="home">首页</a></li>
+					<?php if(is_array($navBars)): $i = 0; $__LIST__ = $navBars;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navBar): $mod = ($i % 2 );++$i; if($navBar["id"] == $nid): ?><li class="a"><a href="<?php echo ($navBar['navlink']); ?>"><?php echo ($navBar['navname']); ?></a></li>
+					<?php else: ?><li class=""><a href="<?php echo ($navBar['navlink']); ?>"><?php echo ($navBar['navname']); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+				</ul>
+				<script src="/works/thinkphp_huiadmin/Public/home/js/nv.js" type="text/javascript"></script> 
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="main">
+	<div class="wrap" style="display:none">
+		<div class="ad"></div>
+	</div>
+	
+<div id="wp" class="wp">
+
+	<link rel="stylesheet" type="text/css" href="/works/thinkphp_huiadmin/Public/demo/index.css">
+
+	<div id="pt" class="bm cl">
+		<div class="z">
+		<a href="" class="nvhm" title="首页">Discuz! Board</a> <a href="http://182.92.223.135/20151120/portal.php">&nbsp;首页</a>
+		<em>&#8250;</em>文章资讯 
+		</div>
+	</div>
+<div id="ct" class="ct2 wp cl">
+	
+	<!--左边文章列表-->
+	<div class="mn">
+		<div class="bm2">
+			<div class="bm_h cl">
+				<a href="#" class="y xi2 rss" target="_blank" title="RSS">订阅</a>
+				<h1 class="xs2">文章资讯</h1>
+			</div>
+			<div class="bm_c bbda">
+				下级分类:&nbsp;&nbsp;<a href="#" class="xi2">旅游资讯</a>
+				<span class="pipe">|</span>
+				<a href="#" class="xi2">游记攻略</a>
+			</div>
+			<div class="bm_c xld">
+				<?php if(is_array($articles)): $i = 0; $__LIST__ = $articles;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$article): $mod = ($i % 2 );++$i;?><div class="top_new cl">
+							  
+				<div class="box01 cl">
+					<div class="new_pic pic02">
+						<a href="article?id=<?php echo ($article["id"]); ?>" target="_blank"><img src="<?php echo ($article["picture"]); ?>" title="<?php echo ($article["title"]); ?>" class="tn"></a>
+					</div>
+					
+					<h2><a href="article?id=<?php echo ($article["id"]); ?>" target="_blank" class="xi2" style=""><?php echo ($article["title"]); ?></a> </h2>
+										
+				<div id="weibo_info01" class="new_body body02 grey64" style="height:69px"><?php echo ($article["abstract"]); ?></div>
+
+				<div class="new_weibo">								
+					<span class="xg1"><?php echo ($article["createtime"]); ?></span>
+					<!-- Baidu Button BEGIN -->
+					<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+					<span class="bds_more">分享到：</span>
+					<a class="bds_qzone" title="分享到QQ空间" href="http://182.92.223.135/20151120/#"></a>
+					<a class="bds_tsina" title="分享到新浪微博" href="http://182.92.223.135/20151120/#"></a>
+					<a class="bds_tqq" title="分享到腾讯微博" href="http://182.92.223.135/20151120/#"></a>
+					<a class="bds_renren" title="分享到人人网" href="http://182.92.223.135/20151120/#"></a>
+					<a class="bds_t163" title="分享到网易微博" href="http://182.92.223.135/20151120/#"></a>
+					</div>
+					<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" src="/works/thinkphp_huiadmin/Public/demo/bds_s_v2.js"></script>
+
+					<script type="text/javascript">
+					document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+					</script>
+					<!-- Baidu Button END -->							
+				</div>
+				</div>
+
+
+				</div><?php endforeach; endif; else: echo "" ;endif; ?>								
+			</div>
+
+		</div>
+		
+		<div class="pgs cl" style="display:none">
+			<div class="pg"><strong>1</strong>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<label><input type="text" name="custompage" class="px" size="2" title="输入页码，按回车快速跳转" value="1" onkeydown="if(event.keyCode==13) {window.location=&#39;http://182.92.223.135/20151120/portal.php?mod=list&amp;catid=1&amp;page=&#39;+this.value;; doane(event);}">
+			<span title="共 3 页"> / 3 页</span>
+			</label>
+			<a href="#" class="nxt">下一页</a></div>
+		</div>	
+
+	</div>
+
+
+
+
+<div class="sd pph">
+
+<div class="drag" style="display:none">
+<!--[diy=diyrighttop]-------精彩图片<-->
+<div id="diyrighttop" class="area">
+<div id="frameih91PN" class="zxyjctp frame move-span cl frame-1">
+<div class="title frame-title">
+	<span class="titletext">精彩图片</span>
+</div>
+<div id="frameih91PN_left" class="column frame-1-c">
+	<div id="frameih91PN_left_temp" class="move-span temp"></div>
+	<div id="portal_block_2084" class="block move-span">
+		<div id="portal_block_2084_content" class="dxb_bc" style="position: relative;">
+		<div class="module cl slidebox" id="0.9073724790941924" style="display: block;">
+			<ul class="slideshow">
+				<li style="width: 300px; height: 185px; display: none;">
+					<a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=5" target="_blank">
+					<img src="./artitlelist_files/f74501ade6fd665d7d50d27be372e2a7.jpg" width="300" height="185"></a>
+					<span class="title">[微派网出品]Win8平板全方位 应用、际上手</span></li>
+				<li style="width: 300px; height: 185px; display: block;">
+					<a href="#" target="_blank">
+					<img src="/works/thinkphp_huiadmin/Public/demo/d23e679a7d0fa3abe15751816a036705.jpg" width="300" height="185"></a>
+					<span class="title">视频行业或将大洗牌 寡头垄断格局</span></li>
+				<li style="width: 300px; height: 185px; display: none;">
+					<a href="http://182.92.223.135/20151120/forum.php?mod=viewthread&tid=80" target="_blank">
+					<img src="./artitlelist_files/a57543ba7cd34e627139d08ae3a12a3a.jpg" width="300" height="185"></a>
+					<span class="title">新浪微博宣称首次盈利是上市的前奏曲</span></li>
+
+			</ul>
+		</div>
+		<div class="slidebar" style="position: absolute; top: 5px; left: 4px;">
+			<ul>
+				<li onmouseover="slideshow.entities[0.9073724790941924].xactive(0); return false;" class="">1</li>
+				<li onmouseover="slideshow.entities[0.9073724790941924].xactive(1); return false;" class="on">2</li>
+				<li onmouseover="slideshow.entities[0.9073724790941924].xactive(2); return false;" class="">3</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+</div><!--[/diy]-->
+</div>
+<!-------相关分类------->
+<div class="bm wd_sd" style="display:none">
+	<div class="bm_h cl">
+		<span class="titletext">相关分类</span>
+	</div>
+	<div class="bm_c">
+		<ul class="xl xl2 cl">
+			<li><a href="#">文章资讯</a></li>
+			<li><a href="#">业务中心</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="drag">
+<!--[diy=diy2]-----热帖排行-->
+<div id="diy2" class="area">
+<div id="frameLA9tdN" class="lyphtz frame move-span cl frame-1">
+<div class="title frame-title">
+	<span class="titletext">热帖排行</span>
+</div>
+<div id="frameLA9tdN_left" class="column frame-1-c">
+<div id="frameLA9tdN_left_temp" class="move-span temp"></div>
+<div id="portal_block_2080" class="block move-span">
+<div id="portal_block_2080_content" class="dxb_bc">
+<div class="module cl xl xl1">
+<ul>
+<?php if(is_array($hotArticles)): $i = 0; $__LIST__ = array_slice($hotArticles,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$article): $mod = ($i % 2 );++$i;?><li id="li1"><p><?php echo ($key+1); ?></p><a href="article?id=<?php echo ($article["id"]); ?>" title="<?php echo ($article["title"]); ?>" target="_blank"><?php echo ($article["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+<?php if(is_array($hotArticles)): $i = 0; $__LIST__ = array_slice($hotArticles,3,7,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$article): $mod = ($i % 2 );++$i;?><li><p><?php echo ($key+1); ?></p><a href="article?id=<?php echo ($article["id"]); ?>" title="<?php echo ($article["title"]); ?>" target="_blank"><?php echo ($article["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+</ul>
+</div></div></div></div></div></div><!--[/diy]-->
+</div>
+
+
+<!--[diy=wd_new_t02]----图文推荐-->
+<div id="wd_new_t02" class="area">
+<div id="framedMIPaz" class="jctjian frame move-span cl frame-1">
+<div class="title frame-title"><span class="titletext">图文推荐</span></div>
+<div id="framedMIPaz_left" class="column frame-1-c"><div id="framedMIPaz_left_temp" class="move-span temp"></div>
+<div id="portal_block_2081" class="jctjiantu block move-span">
+<div id="portal_block_2081_content" class="dxb_bc">
+<div class="module cl ml">
+<ul>
+<li style="width: 140px;" id="li1">
+	<a href="article?id=<?php echo ($carouselArticles[0]["id"]); ?>" target="_blank"><img src="<?php echo ($carouselArticles[0]["picture"]); ?>" width="140" height="115" alt="<?php echo ($carouselArticles[0]["title"]); ?>"></a>
+	<p><a href="article?id=<?php echo ($carouselArticles[0]["id"]); ?>" title="<?php echo ($carouselArticles[0]["title"]); ?>" target="_blank"><?php echo ($carouselArticles[0]["title"]); ?></a></p>
+</li><li style="width: 140px;" id="li0">
+	<a href="article?id=<?php echo ($carouselArticles[1]["id"]); ?>" target="_blank"><img src="<?php echo ($carouselArticles[1]["picture"]); ?>" width="140" height="115" alt="<?php echo ($carouselArticles[1]["title"]); ?>"></a>
+	<p><a href="article?id=<?php echo ($carouselArticles[1]["id"]); ?>" title="<?php echo ($carouselArticles[1]["title"]); ?>" target="_blank"><?php echo ($carouselArticles[1]["title"]); ?></a></p>
+</li>
+</ul>
+</div></div></div>
+<div id="portal_block_2082" class="jctjiantz block move-span">
+	<div id="portal_block_2082_content" class="dxb_bc">
+	<div class="module cl xl xl1">
+	<ul>
+		<?php if(is_array($carouselArticles)): $i = 0; $__LIST__ = array_slice($carouselArticles,2,null,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$article): $mod = ($i % 2 );++$i;?><li><a href="article?id=<?php echo ($article["id"]); ?>" title="<?php echo ($article["title"]); ?>" target="_blank"><?php echo ($article["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+	</ul>
+	</div></div>
+</div>
+</div></div></div><!--[/diy]-->
+
+
+</div>
+</div>
+</div>
+
+	
+	<div class="wrap">
+		<div class="friendLink">
+			<div class="title"><span class="titletext">友情链接</span></div>
+			
+			<div class="dxb_bc">
+				<ul class="cl mbm">
+					<li id="li1"><a href="home">首页</a></li>
+					<?php if(is_array($links)): $i = 0; $__LIST__ = $links;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$link): $mod = ($i % 2 );++$i;?><li id="li2"><a href="<?php echo ($link["url"]); ?>" target="_blank"><?php echo ($link["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+    
+</div>
+
+<div id="footer">
+	<div class="aboutus">关于我们</div>
+	<div class="aboutus" style="background: #434343;">
+		<div id="ft" class="wp cl " >
+		  <p> 
+			<a href="http://182.92.223.135/20151120/archiver/">Archiver</a><span class="pipe">|</span><a href="http://182.92.223.135/20151120/forum.php?mobile=yes">手机版</a><span class="pipe">|</span><a href="http://182.92.223.135/20151120/forum.php?mod=misc&action=showdarkroom">小黑屋</a><span class="pipe">|</span> 
+			<a href="http://www.comsenz.com/" target="_blank">Comsenz Inc.</a> 
+		  </p>
+		  <p>Powered by 
+				<a href="http://www.discuz.net/" target="_blank">Discuz!</a> <em>X3.2</em>      &#169; 2001-2013 
+				<a href="http://www.comsenz.com/" target="_blank">Comsenz Inc.</a>
+				<span id="debuginfo">All Rights Reserved. </span>
+		  </p>
+		  <p class="xs0"></p>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

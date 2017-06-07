@@ -1,0 +1,1 @@
+<?php return array('WEB_NAME'=>'T博客','WEB_AGE'=>'我是博主','WEB_TITLE'=>'博客管理系统',); ?>

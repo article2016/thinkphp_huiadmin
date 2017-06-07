@@ -1,0 +1,1029 @@
+[ 2017-06-03T10:33:40+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T10:33:41+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.1270s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0220s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042002s ]
+
+[ 2017-06-03T10:33:46+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(Application/Home/Conf/text.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 214 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'Application/Home/Conf/text.php' for inclusion (include_path='.;C:\php\pear') D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 214 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 225 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 230 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:34:11+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-03T10:34:13+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:35:32+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:35:49+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(Application/Home/Conf/web_config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 214 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'Application/Home/Conf/web_config.php' for inclusion (include_path='.;C:\php\pear') D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 214 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 225 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 230 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:36:10+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:37:28+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T10:37:54+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:41:53+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:42:25+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T10:50:37+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-03T10:50:37+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:52:09+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T10:52:20+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:52:21+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:52:51+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T10:52:53+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:52:54+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:52:54+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:52:55+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T10:54:24+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T10:59:49+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:01:11+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:01:11+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:07:16+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:07:16+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:08:34+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:09:04+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:09:04+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:09:36+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:10:47+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:11:46+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:13:35+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:21:36+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:21:39+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:21:39+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:23:03+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:25:54+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:25:54+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:30:03+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:30:16+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant this - assumed 'this' D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 18 行.
+
+[ 2017-06-03T11:30:18+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant this - assumed 'this' D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 18 行.
+
+[ 2017-06-03T11:30:20+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant this - assumed 'this' D:\php\web\works\thinkphp_huiadmin\Application\Home\Controller\IndexController.class.php 第 18 行.
+
+[ 2017-06-03T11:30:58+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-03T11:33:26+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:33:28+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:33:30+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-03T11:35:16+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:35:39+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.1040s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:36:03+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:36:15+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:36:16+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:37:04+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/demo2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:demo2
+
+[ 2017-06-03T11:39:08+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_config D:\php\web\works\thinkphp_huiadmin\Application\Runtime\Cache\Home\39b332e5f8883cb2938d6d989e0f6c27.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:39:10+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_config D:\php\web\works\thinkphp_huiadmin\Application\Runtime\Cache\Home\39b332e5f8883cb2938d6d989e0f6c27.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-03T11:40:47+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-03T11:48:24+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T11:48:25+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_config D:\php\web\works\thinkphp_huiadmin\Application\Runtime\Cache\Home\39b332e5f8883cb2938d6d989e0f6c27.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-03T12:51:46+08:00 ] 127.0.0.1 /works/thinkphp_huiadmin/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' D:\php\web\works\thinkphp_huiadmin\Application\Home\Conf\config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tbl_links` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_links` WHERE `isenable` = '是' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_navbar` WHERE `isenable` = '是' ORDER BY navsort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_articles` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_articles` ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 2 ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 1 ORDER BY browsetimes desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `category` = 3 ORDER BY browsetimes desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_articles` WHERE `picture` <> 'NULL' ORDER BY browsetimes desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_articletype` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tbl_articlecategory` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_articletype` ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_articlecategory` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
